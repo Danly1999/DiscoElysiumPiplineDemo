@@ -42,7 +42,7 @@ Shader "URP/Unlit/DeferredDrawShader"
                 o.uv = v.uv;
                 return o;
             }
-            half ZXMainLightRealtimeShadow(float4 shadowCoord)
+            half MyMainLightRealtimeShadow(float4 shadowCoord)
             {
             // #if !defined(MAIN_LIGHT_CALCULATE_SHADOWS)
             //     return 1.0h;
@@ -73,7 +73,7 @@ Shader "URP/Unlit/DeferredDrawShader"
                 posWS.xyz *= rcp(posWS.w);
 
                 float4 shadowCoord = TransformWorldToShadowCoord(posWS.xyz);
-                float shadowAttenuation = ZXMainLightRealtimeShadow(shadowCoord);
+                float shadowAttenuation = MyMainLightRealtimeShadow(shadowCoord);
                 // if(shadowAttenuation>shadowCoord.z)
                 // {
                 //     shadowAttenuation = 0;

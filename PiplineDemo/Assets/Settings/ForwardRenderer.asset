@@ -42,7 +42,7 @@ MonoBehaviour:
   m_Active: 1
   m_Tex: {fileID: 2800000, guid: dc5fc0fa1cbafee4e82ab02275aff7cf, type: 3}
   m_Shader: {fileID: 4800000, guid: 4bc8b65f2d3a08e4096bd1c6aaae430f, type: 3}
-  m_color: {r: 0.16981131, g: 0.087308645, b: 0.087308645, a: 0}
+  m_color: {r: 0.066037714, g: 0.047503788, b: 0.028346378, a: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
