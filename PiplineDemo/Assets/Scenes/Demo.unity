@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 209925086}
   - component: {fileID: 209925085}
   m_Layer: 3
-  m_Name: Sphere
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +578,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1515883d3792a3a46b85bc453adf5b96, type: 2}
     - target: {fileID: 919132149155446097, guid: 00dc32dfbdfd7fe44ad159d5a0fa3dc2, type: 3}
       propertyPath: m_Name
-      value: changjing
+      value: ruins
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 00dc32dfbdfd7fe44ad159d5a0fa3dc2, type: 3}
       propertyPath: m_IsActive
